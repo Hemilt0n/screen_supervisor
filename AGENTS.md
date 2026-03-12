@@ -18,6 +18,8 @@ Use `uv` for dependency and command management:
 
 If `uv` is blocked in your shell, the local fallback is `.venv\Scripts\python.exe -m pytest` or `.venv\Scripts\ruff.exe check src tests`.
 
+GitHub CLI commands (`gh ...`) require escalated permissions in this environment. When repository settings or remote metadata need to be changed through `gh`, run those commands with approval instead of the default sandbox.
+
 ## Coding Style & Naming Conventions
 Follow the existing Python style: 4-space indentation, type hints on public functions, and small focused modules. Use `snake_case` for modules, functions, config keys, and tests; use `PascalCase` for classes such as `SupervisorConfig` and `StorageManager`. Prefer `pathlib.Path`, keep CLI subcommands concise, and let `ruff` own formatting.
 
