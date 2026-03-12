@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.uv/
+.pytest_cache/
+.ruff_cache/
+.claude/
+.spec-workflow/
+captures/
+logs/
+config.toml
+*.egg-info/
+.DS_Store

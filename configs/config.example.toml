@@ -1,0 +1,20 @@
+# 截屏间隔（秒）
+interval_seconds = 1.0
+
+# 截图保存根目录，将自动创建 YYYY-MM-DD 子目录
+capture_root = "captures"
+
+# 图像格式，参考 Pillow 支持列表
+image_format = "jpg"
+
+# 图像压缩质量（1-100），仅对 JPEG/WEBP 格式有效
+image_quality = 90
+
+# 需要截取的显示器索引，0 表示整合的虚拟屏幕
+monitor_index = 0
+
+# 数据保留天数，<=0 表示不清理
+retention_days = 7
+
+# 日志级别（DEBUG/INFO/WARNING/ERROR）
+log_level = "INFO"
